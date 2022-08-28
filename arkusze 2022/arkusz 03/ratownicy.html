@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Zespoły ratownicze</title>
+
+
+</head>
+<body>
+    
+<header>
+<section id="lewe"><h2>Dodanie zespołu ratowniczego</h2></section>
+<section id="srodkowe"><p>Kontakt:</br> 022 222 11 333</p></section>
+<section id="prawe"><img src="obraz.jpg" alt="Ratownicy"></section>
+</header>
+
+<main>
+
+<h3>Dodaj nowy zespół</h3>
+<form action="dodanie.php" method="post">
+
+Numer karetki: </br><input type="number" name="karetkanr" id=""></br>
+Imię i Nazwisko pierwszego ratownika: </br><input type="text" name="rat1" id=""></br>
+Imię i Nazwisko drugiego ratownika: </br><input type="text" name="rat2" id=""></br>
+Imię i Nazwisko trzeciego ratownika: </br><input type="text" name="rat3" id=""></br>
+<button type="reset">CZYŚĆ</button>
+<button type="submit">DODAJ</button>
+</form>
+
+
+</main>
+
+<footer>
+<section id="lewy"><a href="kwerendy.txt">Zobacz kwerendy</a></section>
+<section id="srodkowy"><h5>Przypominamy numery alarmowe</h5><ol><li>112</li><li>999</li></ol></section>
+<section id="prawy"><p>Autor: </br>Paweł Jankowicz</p></section>
+</footer>
+
+</body>
+</html>

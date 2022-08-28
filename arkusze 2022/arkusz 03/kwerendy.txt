@@ -1,0 +1,7 @@
+INSERT INTO ratownicy (id, nrKaretki, ratownik1, ratownik2, ratownik3) VALUES (NULL, '20', 'Adam Nowak', 'Jak Kowalski', 'Anna Nowakowska')
+
+SELECT id, adres, ratownicy_id FROM zgloszenia WHERE dyspozytorzy_id = 4
+
+CREATE USER 'adam'@'localhost' IDENTIFIED BY "Adam6&"
+
+GRANT CREATE, DROP, ALTER ON egzamin.ratownicy TO 'adam'@'localhost'

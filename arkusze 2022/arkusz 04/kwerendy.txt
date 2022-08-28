@@ -1,0 +1,7 @@
+CREATE TABLE 04styczen2022.uzytkownicy ( id INT UNSIGNED NOT NULL AUTO_INCREMENT , login VARCHAR(50) NOT NULL , haslo VARCHAR(50) NOT NULL , PRIMARY KEY (id))
+
+INSERT INTO uzytkownicy (id, login, haslo) VALUES (NULL, 'Grzegorz', 'g')
+
+SELECT login FROM uzytkownicy
+
+SELECT id, login FROM uzytkownicy WHERE haslo LIKE "4%"

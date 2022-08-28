@@ -1,0 +1,62 @@
+body {
+
+font-family: Georgia;
+margin: 0;
+}
+
+main, .mini{
+display: flex;
+flex-direction: row;
+
+}
+
+#lewy {
+
+background-color: maroon;
+color: white;
+height: 600px;
+width: 30%;
+
+}
+
+#prawy {
+
+background-color: maroon;
+color: white;
+height: 600px;
+width: 70%;
+overflow: auto;
+
+}
+
+footer {
+
+    background-color: dimgray;
+    color: white;
+
+}
+p { 
+
+padding: 10px;
+
+}
+img {
+
+    padding: 10px;
+    border: 1px solid white;
+
+}
+#Indigo {
+
+    background-color: indigo;
+
+}
+
+#SteelBlue {
+background-color: steelblue;
+}
+
+#Olive {
+
+background-color: olive;
+}
